@@ -4,14 +4,33 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "",
+    "lint:js":"eslint --fix ./src/**/*.{vue,ts}"
   },
   "dependencies": {
-    "vue": "^3.2.6"
+    "axios": "^0.21.4",
+    "element-plus": "^1.1.0-beta.9",
+    "reset.css": "^2.0.2",
+    "stylelint-scss": "^3.20.1",
+    "vue": "^3.2.6",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^16.7.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.6",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "sass": "^1.39.0",
+    "stylelint": "^13.13.1",
     "typescript": "^4.3.2",
     "vite": "^2.5.4",
     "vue-tsc": "^0.2.2"
